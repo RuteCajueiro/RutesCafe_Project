@@ -1,10 +1,10 @@
-# ☕ Cafeteria ReConStrui
+# ☕ Rute's Café
 
-Este repositório contém o código-fonte do **site da Cafeteria ReConStrui**, desenvolvido como **projeto final do curso de Lógica de Programação do SENAC**.
+Este repositório contém o código-fonte do **site Rute's Café**, desenvolvido como **projeto final do curso de Lógica de Programação do SENAC**.
 
 ## 🚀 Sobre o projeto
 
-O site foi criado para apresentar nossa cafeteria, trazendo informações sobre os produtos, ambiente aconchegante e contato com clientes.
+O site foi criado para apresentar a **cafeteria Rute's Café**, trazendo informações sobre os produtos, ambiente aconchegante e contato com clientes.
 
 **Objetivos principais:**
 - Divulgar o cardápio online.
