@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <title>Rute’s Café</title>
   <link rel="stylesheet" href="styles.css">
+
  
 </head>
 <body >
   <div class="container">
-    
-    <!-- DIV 1: LOGO + MENU -->
+  
     <div class="div1">
       <div class="logo"> <img src="assets/logoimg.png"> </div>
       <div class="menu">
@@ -21,7 +21,6 @@
     </div>
 
 
-<!-- DIV 25: CARROSSEL -->
 <div class="carrossel-container">
   <div class="carrossel-slide" id="carrosselSlide">
     <img src="assets/imgcarrossel15.png" alt="Imagem 1">
@@ -35,20 +34,8 @@
   <button class="botao proximo" onclick="mudarSlide(1)">&#10095;</button>
 </div>
 
-<script>
-  const carrosselSlide = document.getElementById('carrosselSlide');
-  const totalSlides = 5;
-  let slideAtual = 0;
+  <script src="script.js"></script>
 
-  function mudarSlide(direcao) {
-    slideAtual += direcao;
-    if (slideAtual < 0) slideAtual = totalSlides - 1;
-    if (slideAtual >= totalSlides) slideAtual = 0;
-    carrosselSlide.style.transform = `translateX(-${slideAtual * 20}%)`;
-  }
-</script>
-
-    <!-- DIV 2: 2 BLOCOS -->
     <div class="div2">
       <div class="box"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/df3JeXVWYWA?si=7k0tvvt-YF3VICJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
@@ -58,7 +45,6 @@
      </div>
     </div>
 
-    <!-- DIV 3: 4 BLOCOS -->
     <div class="div3">
       <div class="box"> <img src="assets/imgcafe.4.png" height=100%  width="352"></div>
       <div class="box"> <img src="assets/imgcafe.2.png" height=100% width=349> </div>
@@ -66,17 +52,14 @@
       <div class="box"> <img src="assets/imgcafe.4..jpeg" height=100% widht=348> </div>
     </div>
 
-    <!-- DIV 4: 1/3 e 2/3 -->
     <div class="div4">
       <div class="terco"> <img src="assets/imgpromocao.png" height=100% widht=280> </div>
       <div class="doistercos"><img src="assets/imgcarrossel3.png" height=100% > </div>
           
     </div>
 
-    <!-- DIV 4,5: Mapa -->
     <div class="div45"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d728.6385248361252!2d-34.893141083239975!3d-8.086784929575144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f3bec5d8d93%3A0x532df23527a0999e!2sIJCPM!5e1!3m2!1spt-PT!2sbr!4v1751570337655!5m2!1spt-PT!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
 
-    <!-- DIV 5: RODAPÉ -->
     <div class="div5"> <img src="assets/logoimg.png"> ©2025 - Todosos Direitos Reservados para Rute’s Café</div>
 
   </div>
